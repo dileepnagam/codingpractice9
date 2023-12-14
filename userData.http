@@ -3,12 +3,12 @@
 POST http://localhost:3000/register/
 Content-Type: application/json
 
-{   
-    "name":"rahul",
-    "username":"rahul123",
-    "password": "rahul@456",
-    "gender": "Male",
-    "location":"hyderabad"
+{
+  "username": "adam_richard",
+  "name": "Adam Richard",
+  "password": "richard_567",
+  "gender": "male",
+  "location": "Detroit"
 }
 
 
@@ -18,8 +18,8 @@ POST http://localhost:3000/login/
 Content-Type: application/json
 
 {
-    "username":"rahul123",
-    "password": "rahul@455"
+  "username": "adam_richard",
+  "password": "richard_567"
 }
 
 ###
